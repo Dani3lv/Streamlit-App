@@ -32,8 +32,7 @@ def References():
 # Function that holds all the main page data
 def home():
 # Load the CSV file
-    path = "C:/Users/danv/OneDrive - Bentley University/Spring2023/CS230/PycharmFiles/FinalProject/"
-    data = pd.read_csv(path + "USMassShootings.csv", encoding="ISO-8859-1")
+    data = pd.read_csv("USMassShootings.csv", encoding="ISO-8859-1")
 # Added encoding because I was getting errors on streamlit
 
 # Function for filtering data
